@@ -1,5 +1,10 @@
 function enviar() {
-  Swal.fire("Mensagem enviada com sucesso!");
+  alert("Formulário enviado com sucesso!");
 }
 
-document.getElementById("enviar").addEventListener("onclick", enviar);
+function easteregg() {
+  document.getElementById("easteregg").style =
+    "transform: rotate(360deg); transition: 1s;";
+}
+
+document.getElementById("easteregg").addEventListener("dblclick", easteregg);
