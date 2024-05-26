@@ -11,6 +11,7 @@
       type="image/x-icon"
     />
     <link rel="stylesheet" href="../style/contato.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <title>Contato</title>
   </head>
   <body>
@@ -75,10 +76,11 @@
           <label for="mensagem">Mensagem:</label>
           <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
         </div>
-        <button type="submit" class="ui-btn">
-          <span> Button </span>
-        </button>
       </form>
+      <button class="ui-btn" id="enviar">
+        <span> Button </span>
+      </button>
     </main>
+    <script src="../scripts/script.js" defer></script>
   </body>
 </html>
