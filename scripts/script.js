@@ -1,5 +1,5 @@
 function enviar() {
-  alert("Formulário enviado com sucesso!");
+  swal("Formulário enviado com sucesso!");
 }
 
 function easteregg() {

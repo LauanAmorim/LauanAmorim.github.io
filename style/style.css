@@ -103,9 +103,18 @@ mark {
   height: 200px;
 }
 
+.btnimg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
 .profile-icons {
-  width: 20px;
-  height: 20px;
+  box-shadow: none !important;
+  width: 40px !important;
+  height: 40px !important;
+  padding: 0 8px;
 }
 
 .content {
